@@ -36,3 +36,38 @@ body{
       width:50%;
     }
   }
+.overlay{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255, 0, 111, 0.993);
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
+button{
+    width: 200px;
+    border-radius: 20px;
+    background-color: rgba(0, 255, 123, 0.648);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 40px;
+}
+.modal_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    height: fit-content;
+    position: fixed;
+    background-color: bisque;
+    z-index: 10;
+    align-self: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.hidden{
+    display: none;
+}
